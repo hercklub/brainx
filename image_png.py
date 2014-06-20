@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import sys
+import zlib
 
 class PNGWrongHeaderError(Exception):
 	"""Výjimka oznamující, že načítaný soubor zřejmě není PNG-obrázkem."""
@@ -23,7 +24,7 @@ class PngReader():
 		
 		with open(filepath, mode='rb') as f:
 			self.binary = f.read()
-		self.parse_png()
+		self.decode()
 
 	def check_header(self):
 		"""Check header and cut it off"""
@@ -34,7 +35,7 @@ class PngReader():
 
 
 	def parse_png(self):
-		"""From raw binary data, get chunks and save them. Deletes raw data."""
+		"""From raw binary data, get chunks and save them.."""
 		self.check_header()
 		p = 0
 		self.data = []
@@ -44,8 +45,31 @@ class PngReader():
 			p += 4    
 			self.data += [{'head':self.binary[p:p+4], 'data':self.binary[p+4:p+l+4]}]      
 			p += l+8
-		print (self.data)
+		
+		#Finds IHDR
+		for chunk in self.data:
+			if (chunk['head']==b'IHDR'):
+				self.ihdr=chunk['data']
+				break
+		
+		#Check IHDR
+		if self.ihdr[8:13] != b'\x08\x02\x00\x00\x00':
+			raise PNGNotImplementedError("Loaded image has a structure that cannot be processed.")
+		
+		#Get size
+		self.width=self.bytes_to_num(self.ihdr[0:4])
+		self.heigh=self.bytes_to_num(self.ihdr[4:8])
+
+		#Finds all IDATs
+		self.idat=b''
+		for chunk in self.data:
+			if (chunk['head']==b'IDAT'):
+				self.idat+=chunk['data']
+		#Decompress them
+		self.idat=zlib.decompress(self.idat)
+
 		return self
+
 	def bytes_to_num(self, bytes):
 		try:
 			r = bytes[0] << 24
@@ -57,6 +81,21 @@ class PngReader():
 
 		return r;
 
-
+	def decode(self):
+		self.parse_png()
+		i=0
+		for row in range(0,self.heigh):
+			png_filter=self.idat[i]
+			i+=1
+			line=[]
+			for columm in range(0,self.width):
+				pixel=(self.idat[i],self.idat[i+1],self.idat[i+2])
+				i+=3
+				if png_filter==0:
+					a=pixel
+					line+=[pixel]
+				else:
+					raise PNGNotImplementedError("Loaded image uses filter which is not supported")
+			self.rgb+=line
 if __name__ == '__main__':
 	PngReader(sys.argv[1])
