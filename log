@@ -1,0 +1,1996 @@
+Traceback (most recent call last):
+  File "./brainx.py", line 130, in <module>
+    BrainFuck(sys.argv[1])
+  File "./brainx.py", line 25, in __init__
+    self.interpreter(self.code)
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 84, in interpreter
+    self.interpreter(code[code_ptr:i])
+  File "./brainx.py", line 34, in interpreter
+    while code_ptr<len(code):
+RuntimeError: maximum recursion depth exceeded in comparison
