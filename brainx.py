@@ -26,7 +26,8 @@ class BrainFuck:
             sys.exit(1)
         
 
-        #self.input=self.find_input()
+        self.input=self.find_input()
+        print (self.input)
         self.interpreter(self.code)
         
 
@@ -49,15 +50,13 @@ class BrainFuck:
                     self.memory_pointer=0
 
             if command=="+":
-                self.memory[self.memory_pointer]+=1
-
-                if self.memory[self.memory_pointer] > 255:
-                    self.memory[self.memory_pointer]=0
+                self.memory[self.memory_pointer ] = (self.memory[self.memory_pointer ] + 1) % 256;
 
             if command=="-":
-                self.memory[self.memory_pointer]-=1
-                if self.memory[self.memory_pointer]<0:
+                if self.memory[self.memory_pointer]==0:
                     self.memory[self.memory_pointer]=255
+                else:
+                    self.memory[self.memory_pointer]-=1
 
             if command == ".":
                 sys.stdout.write(chr(self.memory[self.memory_pointer]))
@@ -83,7 +82,22 @@ class BrainFuck:
         
        
         return code[1:end-1]
+    def find_input(self):
+        if self.code.find('!')!=-1:
+            pos=self.code.find('!')
+            _input=self.code[pos+1:]
+            self.code=self.code[:pos]
 
+            return _input
+        return 0
+
+    def read_char(self):
+        if self.input!=0:
+            ret=self.input[0]
+            self.input=self.input[1:]
+            return ret
+        else:
+            return sys.stdin.read(1)
         
     #
     # pro potřeby testů
