@@ -86,7 +86,6 @@ class PngReader():
 		i=0
 		for row in range(0,self.heigh):
 			png_filter=self.idat[i]
-			print (png_filter)
 			i+=1
 			line=[]
 			a=(0,0,0)
@@ -145,9 +144,6 @@ class PngReader():
 				else:
 					raise PNGNotImplementedError("Loaded image uses filter which is not supported")
 			self.rgb+=[line]
-		for g  in self.rgb:
-			print (g)
-			print ()
 	def paeth(self,a, b, c):
 	    p = a + b - c
 	    pa = abs(p - a)

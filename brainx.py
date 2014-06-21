@@ -28,7 +28,6 @@ class BrainFuck:
         
 
         self.input=self.find_input()
-        print (self.input)
         self.interpreter(self.code)
         
 
@@ -117,17 +116,31 @@ class BrainLoller():
         # self.data obsahuje rozkódovaný zdrojový kód brainfucku..
         self.data = self.decode(self.img)
         # ..který pak předhodíme interpretru
-        # self.program = BrainFuck(self.data)
+        self.program = BrainFuck(self.data)
     
-    def decode(self,filename):
+    def decode(self,data):
         x=0
         y=0
-        direction=0
-        print (self.img)
+        self.direction=2
+        code=''
+        while True:
+
+            if x<0 or y<0 or x>=len(data) or y >=len (data[0]):
+                break
+            op=self.operations(data[x][y])
+            if op[0]:
+                code+=op[0]
+            self.direction=op[1]
+            x,y=self.move(x,y,self.direction)
+
+
+
+        return code
+
 
     def operations (self,color):
         command=''
-        direction=0
+        direction=self.direction
         if color == (255,0,0):
             command = '>'
         if color == (128,0,0):
@@ -145,11 +158,21 @@ class BrainLoller():
         if color == (128,128,0):
             command = ']'
         if color == (0,255,255): # turn right
-            direction=1
+            direction=(direction+1)%4
         if color == (0,128,128): # turn left
-            direction=-1
+            direction=(direction-1)%4
 
         return command,direction
+    def move (self,x,y,d):
+        if d==0:
+            y-=1
+        if d==1:
+            x-=1
+        if d==2:
+            y+=1
+        if d==3:
+            x+=1
+        return x,y
 
 class BrainCopter():
     """Třída pro zpracování jazyka braincopter."""
