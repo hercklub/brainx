@@ -86,16 +86,78 @@ class PngReader():
 		i=0
 		for row in range(0,self.heigh):
 			png_filter=self.idat[i]
+			print (png_filter)
 			i+=1
 			line=[]
-			for columm in range(0,self.width):
+			a=(0,0,0)
+			b=(0,0,0)
+			c=(0,0,0)
+			for col in range(0,self.width):
 				pixel=(self.idat[i],self.idat[i+1],self.idat[i+2])
 				i+=3
+
 				if png_filter==0:
 					a=pixel
 					line+=[pixel]
+
+				elif png_filter==1:
+					if col!=0:
+						a=((pixel[0] + a[0] + 256)%256, (pixel[1] + a[1] + 256)%256, (pixel[2] + a[2] + 256)%256)
+					else:
+						a=pixel
+
+					line+=[a]
+				elif png_filter==2:
+					if row!=0:
+						b=self.rgb[row - 1][col]
+						a=((pixel[0] + b[0] + 256)%256, (pixel[1] + b[1] + 256)%256, (pixel[2] + b[2] + 256)%256)
+					else:
+						a=pixel
+					
+					line+=[a]
+				elif png_filter==3:
+					if row != 0:
+						b = self.rgb[row - 1][col]
+					if col != 0:
+						a = line[col - 1]
+					
+					pixel = ((pixel[0] + (a[0] + b[0]) // 2 + 256) % 256, (pixel[1] + (a[1] + b[1]) // 2 + 256) % 256,
+                             (pixel[2] + (a[2] + b[2]) // 2 + 256) % 256)
+
+					line += [pixel]
+
+
+				elif png_filter==4:
+					if row!=0 and col!=0:
+						c=self.rgb[row-1][col-1]
+
+					if row!=0:
+						b=self.rgb[row-1][col]
+
+					if col!=0:
+						a=line[col-1]
+
+					R = (pixel[0] + self.paeth(a[0], b[0], c[0]) + 256) % 256
+					G = (pixel[1] + self.paeth(a[1], b[1], c[1]) + 256) % 256
+					B = (pixel[2] + self.paeth(a[2], b[2], c[2]) + 256) % 256
+					pixel = (R, G, B)
+					line+=[pixel]
 				else:
 					raise PNGNotImplementedError("Loaded image uses filter which is not supported")
-			self.rgb+=line
+			self.rgb+=[line]
+		for g  in self.rgb:
+			print (g)
+			print ()
+	def paeth(self,a, b, c):
+	    p = a + b - c
+	    pa = abs(p - a)
+	    pb = abs(p - b)
+	    pc = abs(p - c)
+	    if pa <= pb and pa <= pc:
+	        return a
+	    elif pb <= pc:
+	        return b
+	    else:
+	        return c
 if __name__ == '__main__':
 	PngReader(sys.argv[1])

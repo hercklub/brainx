@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import sys
+from image_png import PngReader
 
 class BrainFuck:
     """Interpretr jazyka brainfuck."""
@@ -112,12 +113,43 @@ class BrainLoller():
     
     def __init__(self, filename):
         """Inicializace interpretru brainlolleru."""
-        
+        self.img=PngReader(filename).rgb
         # self.data obsahuje rozkódovaný zdrojový kód brainfucku..
-        self.data = ''
+        self.data = self.decode(self.img)
         # ..který pak předhodíme interpretru
-        self.program = BrainFuck(self.data)
+        # self.program = BrainFuck(self.data)
+    
+    def decode(self,filename):
+        x=0
+        y=0
+        direction=0
+        print (self.img)
 
+    def operations (self,color):
+        command=''
+        direction=0
+        if color == (255,0,0):
+            command = '>'
+        if color == (128,0,0):
+            command = '<'
+        if color == (0,255,0):
+            command = '+'
+        if color == (0,128,0):
+            command = '-'
+        if color == (0,0,255):
+            command = '.'
+        if color == (0,0,128):
+            command = ','
+        if color == (255,255,0):
+            command = '['
+        if color == (128,128,0):
+            command = ']'
+        if color == (0,255,255): # turn right
+            direction=1
+        if color == (0,128,128): # turn left
+            direction=-1
+
+        return command,direction
 
 class BrainCopter():
     """Třída pro zpracování jazyka braincopter."""
@@ -132,4 +164,5 @@ class BrainCopter():
 
 
 if __name__ == '__main__':
-     BrainFuck(sys.argv[1])
+     #BrainFuck(sys.argv[1])
+     BrainLoller(sys.argv[1])
