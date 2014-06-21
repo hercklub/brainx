@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import sys
 import zlib
+import struct
 
 class PNGWrongHeaderError(Exception):
 	"""Výjimka oznamující, že načítaný soubor zřejmě není PNG-obrázkem."""
@@ -43,7 +44,7 @@ class PngReader():
 			#lenght
 			l = self.bytes_to_num(self.binary[p:p+4])
 			p += 4    
-			self.data += [{'head':self.binary[p:p+4], 'data':self.binary[p+4:p+l+4]}]      
+			self.data += [{'head':self.binary[p:p+4], 'data':self.binary[p+4:p+l+4]}]    
 			p += l+8
 		
 		#Finds IHDR
@@ -67,7 +68,6 @@ class PngReader():
 				self.idat+=chunk['data']
 		#Decompress them
 		self.idat=zlib.decompress(self.idat)
-
 		return self
 
 	def bytes_to_num(self, bytes):
@@ -96,7 +96,6 @@ class PngReader():
 				i+=3
 
 				if png_filter==0:
-					a=pixel
 					line+=[pixel]
 
 				elif png_filter==1:

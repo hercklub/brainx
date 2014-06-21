@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import sys
+import math
 from image_png import PngReader
 
 class BrainFuck:
@@ -117,6 +118,7 @@ class BrainLoller():
         self.data = self.decode(self.img)
         # ..který pak předhodíme interpretru
         self.program = BrainFuck(self.data)
+
     
     def decode(self,data):
         x=0
@@ -174,18 +176,24 @@ class BrainLoller():
             x+=1
         return x,y
 
-class BrainCopter():
+class BrainCopter(BrainLoller):
     """Třída pro zpracování jazyka braincopter."""
     
-    def __init__(self, filename):
-        """Inicializace interpretru braincopteru."""
-        
-        # self.data obsahuje rozkódovaný zdrojový kód brainfucku..
-        self.data = ''
-        # ..který pak předhodíme interpretru
-        self.program = BrainFuck(self.data)
+    def operations(self,color):
+        command = ''
+        direction=self.direction
+        color_c = (-2*color[0] + 3*color[1] + color[2])%11
+        bf = '><+-.,[]'
+        if color_c < 8:
+            command = bf[color_c]
+        if color_c == 8: # turn right
+            direction=(direction+1)%4
+        if color_c == 9: # turn left
+            direction=(direction-1)%4
+        return command,direction
+
 
 
 if __name__ == '__main__':
      #BrainFuck(sys.argv[1])
-     BrainLoller(sys.argv[1])
+     BrainCopter(sys.argv[1])
