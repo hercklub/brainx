@@ -5,10 +5,10 @@ import math
 from image_png import PngReader
 
 class BrainFuck:
-    """Interpretr jazyka brainfuck."""
+    """Braifuck interpreter."""
     
     def __init__(self, data, memory=b'\x00', memory_pointer=0):
-        """Inicializace interpretru brainfucku."""
+        """Inicialization of Brainfuck interpreter."""
         
         # inicializace proměnných
         self.memory = bytearray(memory)
@@ -33,7 +33,7 @@ class BrainFuck:
         
 
     def interpreter(self,code):
-        """ Interprets brainfuck code"""
+        """ Define Brainfuck operations and execute them."""
         code_ptr=0
         while code_ptr<len(code):
             command=code[code_ptr]
@@ -76,7 +76,7 @@ class BrainFuck:
             code_ptr += 1               
 
     def get_loopcode(self,code):
-        
+        """Cut part of code to loop trough."""    
         end = 1
         while (code[0:end].count('[') != code[0:end].count(']')):
             end += 1
@@ -84,6 +84,7 @@ class BrainFuck:
        
         return code[1:end-1]
     def find_input(self):
+        """Save chars after '!' and cut it off from source code."""
         if self.code.find('!')!=-1:
             pos=self.code.find('!')
             _input=self.code[pos+1:]
@@ -93,6 +94,7 @@ class BrainFuck:
         return 0
 
     def read_char(self):
+        """Part of brainfuck extentsion, read 1 char either from input or from part after '!'."""
         if self.input!=0:
             ret=self.input[0]
             self.input=self.input[1:]
@@ -109,10 +111,10 @@ class BrainFuck:
 
 
 class BrainLoller():
-    """Třída pro zpracování jazyka brainloller."""
+    """BrainLoller interpreter."""
     
     def __init__(self, filename):
-        """Inicializace interpretru brainlolleru."""
+        """Inicialization of BrainLoller interpreter."""
         self.img=PngReader(filename).rgb
         # self.data obsahuje rozkódovaný zdrojový kód brainfucku..
         self.data = self.decode(self.img)
@@ -121,6 +123,7 @@ class BrainLoller():
 
     
     def decode(self,data):
+        """Execute BrainLoller code."""
         x=0
         y=0
         self.direction=2
@@ -139,8 +142,8 @@ class BrainLoller():
 
         return code
 
-
     def operations (self,color):
+        """Define operations by color of pixel."""
         command=''
         direction=self.direction
         if color == (255,0,0):
@@ -166,6 +169,7 @@ class BrainLoller():
 
         return command,direction
     def move (self,x,y,d):
+        """Change direction of instruction pointer."""
         if d==0:
             y-=1
         if d==1:
@@ -177,9 +181,10 @@ class BrainLoller():
         return x,y
 
 class BrainCopter(BrainLoller):
-    """Třída pro zpracování jazyka braincopter."""
+    """BrainCopter interpreter."""
     
     def operations(self,color):
+        """Interprets BrainCopter code."""
         command = ''
         direction=self.direction
         color_c = (-2*color[0] + 3*color[1] + color[2])%11

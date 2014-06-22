@@ -5,17 +5,17 @@ import zlib
 import struct
 
 class PNGWrongHeaderError(Exception):
-	"""Výjimka oznamující, že načítaný soubor zřejmě není PNG-obrázkem."""
+	"""Exceptions informing that loaded file is probably not PNG image."""
 	pass
 
 
 class PNGNotImplementedError(Exception):
-	"""Výjimka oznamující, že PNG-obrázek má strukturu, kterou neumíme zpracovat."""
+	"""Exception informing that PNG image has structure which is not supported."""
 	pass
 
 
 class PngReader():
-	"""Třída pro práci s PNG-obrázky."""
+	"""Process PNG images."""
 	    
 	def __init__(self, filepath):
         
@@ -71,6 +71,7 @@ class PngReader():
 		return self
 
 	def bytes_to_num(self, bytes):
+		"""Convert 4 bytes to intiger value."""
 		try:
 			r = bytes[0] << 24
 			r += bytes[1] << 16
@@ -82,6 +83,7 @@ class PngReader():
 		return r;
 
 	def decode(self):
+		"""Save pixels according to used filetrs."""
 		self.parse_png()
 		i=0
 		for row in range(0,self.heigh):
@@ -144,15 +146,16 @@ class PngReader():
 					raise PNGNotImplementedError("Loaded image uses filter which is not supported")
 			self.rgb+=[line]
 	def paeth(self,a, b, c):
-	    p = a + b - c
-	    pa = abs(p - a)
-	    pb = abs(p - b)
-	    pc = abs(p - c)
-	    if pa <= pb and pa <= pc:
-	        return a
-	    elif pb <= pc:
-	        return b
-	    else:
-	        return c
+		"""Paeth predictor, part of 4th filter."""
+		p = a + b - c
+		pa = abs(p - a)
+		pb = abs(p - b)
+		pc = abs(p - c)
+		if pa <= pb and pa <= pc:
+			return a
+		elif pb <= pc:
+			return b
+		else:
+			return c
 if __name__ == '__main__':
 	PngReader(sys.argv[1])

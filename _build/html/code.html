@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Brainx members &mdash; Brainx 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Brainx 0.1 documentation" href="index.html" />
+    <link rel="prev" title="Welcome to Brainx’s documentation!" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Brainx’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Brainx 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-brainx">
+<span id="brainx-members"></span><h1>Brainx  members<a class="headerlink" href="#module-brainx" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="brainx.BrainCopter">
+<em class="property">class </em><tt class="descclassname">brainx.</tt><tt class="descname">BrainCopter</tt><big>(</big><em>filename</em><big>)</big><a class="headerlink" href="#brainx.BrainCopter" title="Permalink to this definition">¶</a></dt>
+<dd><p>BrainCopter interpreter.</p>
+<dl class="method">
+<dt id="brainx.BrainCopter.operations">
+<tt class="descname">operations</tt><big>(</big><em>color</em><big>)</big><a class="headerlink" href="#brainx.BrainCopter.operations" title="Permalink to this definition">¶</a></dt>
+<dd><p>Interprets BrainCopter code.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="brainx.BrainFuck">
+<em class="property">class </em><tt class="descclassname">brainx.</tt><tt class="descname">BrainFuck</tt><big>(</big><em>data</em>, <em>memory=b'x00'</em>, <em>memory_pointer=0</em><big>)</big><a class="headerlink" href="#brainx.BrainFuck" title="Permalink to this definition">¶</a></dt>
+<dd><p>Braifuck interpreter.</p>
+<dl class="method">
+<dt id="brainx.BrainFuck.find_input">
+<tt class="descname">find_input</tt><big>(</big><big>)</big><a class="headerlink" href="#brainx.BrainFuck.find_input" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save chars after &#8216;!&#8217; and cut it off from source code.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="brainx.BrainFuck.get_loopcode">
+<tt class="descname">get_loopcode</tt><big>(</big><em>code</em><big>)</big><a class="headerlink" href="#brainx.BrainFuck.get_loopcode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cut part of code to loop trough.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="brainx.BrainFuck.interpreter">
+<tt class="descname">interpreter</tt><big>(</big><em>code</em><big>)</big><a class="headerlink" href="#brainx.BrainFuck.interpreter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Define Brainfuck operations and execute them.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="brainx.BrainFuck.read_char">
+<tt class="descname">read_char</tt><big>(</big><big>)</big><a class="headerlink" href="#brainx.BrainFuck.read_char" title="Permalink to this definition">¶</a></dt>
+<dd><p>Part of brainfuck extentsion, read 1 char either from input or from part after &#8216;!&#8217;.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="brainx.BrainLoller">
+<em class="property">class </em><tt class="descclassname">brainx.</tt><tt class="descname">BrainLoller</tt><big>(</big><em>filename</em><big>)</big><a class="headerlink" href="#brainx.BrainLoller" title="Permalink to this definition">¶</a></dt>
+<dd><p>BrainLoller interpreter.</p>
+<dl class="method">
+<dt id="brainx.BrainLoller.decode">
+<tt class="descname">decode</tt><big>(</big><em>data</em><big>)</big><a class="headerlink" href="#brainx.BrainLoller.decode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute BrainLoller code.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="brainx.BrainLoller.move">
+<tt class="descname">move</tt><big>(</big><em>x</em>, <em>y</em>, <em>d</em><big>)</big><a class="headerlink" href="#brainx.BrainLoller.move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Change direction of instruction pointer.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="brainx.BrainLoller.operations">
+<tt class="descname">operations</tt><big>(</big><em>color</em><big>)</big><a class="headerlink" href="#brainx.BrainLoller.operations" title="Permalink to this definition">¶</a></dt>
+<dd><p>Define operations by color of pixel.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-image_png">
+<span id="png-parser-members"></span><h1>PNG parser  members<a class="headerlink" href="#module-image_png" title="Permalink to this headline">¶</a></h1>
+<dl class="exception">
+<dt id="image_png.PNGNotImplementedError">
+<em class="property">exception </em><tt class="descclassname">image_png.</tt><tt class="descname">PNGNotImplementedError</tt><a class="headerlink" href="#image_png.PNGNotImplementedError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exception informing that PNG image has structure which is not supported.</p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="image_png.PNGWrongHeaderError">
+<em class="property">exception </em><tt class="descclassname">image_png.</tt><tt class="descname">PNGWrongHeaderError</tt><a class="headerlink" href="#image_png.PNGWrongHeaderError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exceptions informing that loaded file is probably not PNG image.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="image_png.PngReader">
+<em class="property">class </em><tt class="descclassname">image_png.</tt><tt class="descname">PngReader</tt><big>(</big><em>filepath</em><big>)</big><a class="headerlink" href="#image_png.PngReader" title="Permalink to this definition">¶</a></dt>
+<dd><p>Process PNG images.</p>
+<dl class="method">
+<dt id="image_png.PngReader.bytes_to_num">
+<tt class="descname">bytes_to_num</tt><big>(</big><em>bytes</em><big>)</big><a class="headerlink" href="#image_png.PngReader.bytes_to_num" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert 4 bytes to intiger value.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="image_png.PngReader.check_header">
+<tt class="descname">check_header</tt><big>(</big><big>)</big><a class="headerlink" href="#image_png.PngReader.check_header" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check header and cut it off</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="image_png.PngReader.decode">
+<tt class="descname">decode</tt><big>(</big><big>)</big><a class="headerlink" href="#image_png.PngReader.decode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save pixels according to used filetrs.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="image_png.PngReader.paeth">
+<tt class="descname">paeth</tt><big>(</big><em>a</em>, <em>b</em>, <em>c</em><big>)</big><a class="headerlink" href="#image_png.PngReader.paeth" title="Permalink to this definition">¶</a></dt>
+<dd><p>Paeth predictor, part of 4th filter.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="image_png.PngReader.parse_png">
+<tt class="descname">parse_png</tt><big>(</big><big>)</big><a class="headerlink" href="#image_png.PngReader.parse_png" title="Permalink to this definition">¶</a></dt>
+<dd><p>From raw binary data, get chunks and save them..</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Brainx  members</a></li>
+<li><a class="reference internal" href="#module-image_png">PNG parser  members</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to Brainx&#8217;s documentation!</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/code.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Brainx’s documentation!"
+             >previous</a> |</li>
+        <li><a href="index.html">Brainx 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Lubos Hercka.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>
