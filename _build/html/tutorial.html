@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Welcome to Brainx’s documentation! &mdash; Brainx 0.1 documentation</title>
+    <title>Brainx Tutorial &mdash; Brainx 0.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -23,8 +23,8 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="Brainx 0.1 documentation" href="#" />
-    <link rel="next" title="Brainx Tutorial" href="tutorial.html" /> 
+    <link rel="top" title="Brainx 0.1 documentation" href="index.html" />
+    <link rel="prev" title="Brainx members" href="code.html" /> 
   </head>
   <body>
     <div class="related">
@@ -37,9 +37,9 @@
           <a href="py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
         <li class="right" >
-          <a href="tutorial.html" title="Brainx Tutorial"
-             accesskey="N">next</a> |</li>
-        <li><a href="#">Brainx 0.1 documentation</a> &raquo;</li> 
+          <a href="code.html" title="Brainx members"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Brainx 0.1 documentation</a> &raquo;</li> 
       </ul>
     </div>  
 
@@ -48,25 +48,38 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="welcome-to-brainx-s-documentation">
-<h1>Welcome to Brainx&#8217;s documentation!<a class="headerlink" href="#welcome-to-brainx-s-documentation" title="Permalink to this headline">¶</a></h1>
-<p>This program can read and execute programs in BrainFuck, Brailoller and Braincopter languages.</p>
-<p>Contents:</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="tutorial.html">Brainx Tutorial</a></li>
-<li class="toctree-l1"><a class="reference internal" href="code.html">Brainx  members</a></li>
-<li class="toctree-l1"><a class="reference internal" href="code.html#module-image_png">PNG parser  members</a></li>
-</ul>
-</div>
-</div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><a class="reference internal" href="genindex.html"><em>Index</em></a></li>
-<li><a class="reference internal" href="py-modindex.html"><em>Module Index</em></a></li>
-<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
-</ul>
+  <div class="section" id="brainx-tutorial">
+<h1>Brainx Tutorial<a class="headerlink" href="#brainx-tutorial" title="Permalink to this headline">¶</a></h1>
+<p><strong>usage</strong>: brainx.py [-h] [-l | -c | -f] file|data</p>
+<p>Execute Brain{fuck,loller,copter} code.</p>
+<dl class="docutils">
+<dt>positional arguments:</dt>
+<dd>file|data          input source file or actual source code</dd>
+<dt>optional arguments:</dt>
+<dd><table class="first last docutils option-list" frame="void" rules="none">
+<col class="option" />
+<col class="description" />
+<tbody valign="top">
+<tr><td class="option-group">
+<kbd><span class="option">-h</span>, <span class="option">--help</span></kbd></td>
+<td>show this help message and exit</td></tr>
+<tr><td class="option-group" colspan="2">
+<kbd><span class="option">-l</span>, <span class="option">--brainloller</span></kbd></td>
+</tr>
+<tr><td>&nbsp;</td><td>brainloller (default: false)</td></tr>
+<tr><td class="option-group" colspan="2">
+<kbd><span class="option">-c</span>, <span class="option">--braincopter</span></kbd></td>
+</tr>
+<tr><td>&nbsp;</td><td>braincopter (default: false)</td></tr>
+<tr><td class="option-group" colspan="2">
+<kbd><span class="option">-f</span>, <span class="option">--brainfuck</span></kbd></td>
+</tr>
+<tr><td>&nbsp;</td><td>brainfuck (default: true)</td></tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<p><strong>Example files are located in test_data folder.</strong></p>
 </div>
 
 
@@ -75,18 +88,12 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
-  <h3><a href="#">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Welcome to Brainx&#8217;s documentation!</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
-</ul>
-
-  <h4>Next topic</h4>
-  <p class="topless"><a href="tutorial.html"
-                        title="next chapter">Brainx Tutorial</a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="code.html"
+                        title="previous chapter">Brainx  members</a></p>
   <h3>This Page</h3>
   <ul class="this-page-menu">
-    <li><a href="_sources/index.txt"
+    <li><a href="_sources/tutorial.txt"
            rel="nofollow">Show Source</a></li>
   </ul>
 <div id="searchbox" style="display: none">
@@ -116,9 +123,9 @@
           <a href="py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
         <li class="right" >
-          <a href="tutorial.html" title="Brainx Tutorial"
-             >next</a> |</li>
-        <li><a href="#">Brainx 0.1 documentation</a> &raquo;</li> 
+          <a href="code.html" title="Brainx members"
+             >previous</a> |</li>
+        <li><a href="index.html">Brainx 0.1 documentation</a> &raquo;</li> 
       </ul>
     </div>
     <div class="footer">
