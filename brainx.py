@@ -3,6 +3,7 @@
 import sys
 import math
 from image_png import PngReader
+import argparse
 
 class BrainFuck:
     """Braifuck interpreter."""
@@ -14,11 +15,8 @@ class BrainFuck:
         self.memory = bytearray(memory)
         self.memory_pointer = memory_pointer
 
-        try:
-            with open(data, mode='r') as f:
-                self.code = f.read()
-        except:
-            self.code = data
+
+        self.code = data
         
         # DEBUG a testy
         # a) paměť výstupu
@@ -197,8 +195,38 @@ class BrainCopter(BrainLoller):
             direction=(direction-1)%4
         return command,direction
 
-
+def data_parser(data):
+    try:
+        with open(data, mode='r') as f:
+            code = f.read()
+            return code
+    except:
+        return data
 
 if __name__ == '__main__':
-     #BrainFuck(sys.argv[1])
-     BrainCopter(sys.argv[1])
+    parser = argparse.ArgumentParser(description="Execute Brain{fuck,loller,copter} code.")
+    group = parser.add_mutually_exclusive_group()
+    parser.add_argument('data', metavar='file|data',
+                     type=data_parser,
+                     help='input source file or actual source code')
+    
+    group.add_argument('-l','--brainloller',
+                     action='store_true',
+                     dest='brainloller',
+                     help='brainloller (default: false)')
+
+    group.add_argument('-c','--braincopter',
+                     action='store_true',
+                     dest='braincopter',
+                     help='braincopter (default: false)')
+    group.add_argument('-f','--brainfuck',
+                     action='store_true',
+                     dest='brainfuck',
+                     help='brainfuck (default: true)')
+    args=parser.parse_args()
+    if args.brainloller:
+        BrainLoller(args.data)
+    elif args.braincopter:
+        BrainCopter(args.data)
+    else:
+        BrainFuck(args.data)

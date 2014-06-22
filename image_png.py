@@ -3,6 +3,8 @@
 import sys
 import zlib
 import struct
+import argparse
+
 
 class PNGWrongHeaderError(Exception):
 	"""Exceptions informing that loaded file is probably not PNG image."""
